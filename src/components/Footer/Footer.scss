@@ -1,0 +1,46 @@
+footer{
+    margin: 50px 0;
+}
+
+.first-infos-footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.container-right-footer{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+
+.cellphone-footer, .email-footer, .copyright{
+    color: #a7a7a7;
+    font-size: 16px;
+}
+
+.second-infos-footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.menu-footer ul {
+    display:flex;
+}
+
+.menu-footer ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-footer ul li a{
+    font-size: 16px;
+    color: #a7a7a7;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.menu-footer ul li a:hover{
+    color: #004d16 ;
+}

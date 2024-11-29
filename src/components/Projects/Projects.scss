@@ -1,0 +1,58 @@
+.info-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .card-project {
+    min-height: 600px;
+    height: fit-content;
+    background-color: #363636;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  
+  .info-card-project {
+    padding: 28px;
+  }
+
+  .info-card-project h3 {
+    color: #cccccc;
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+  .info-card-project p {
+    color: #cccccc;
+    font-size: 18px;
+  }
+  
+  .legend-project p {
+    color: #cccccc;
+    font-size: 14px;
+    margin: 15px;
+  }
+  
+  .legend-project span {
+    color: #cccccc;
+    font-weight: bold;
+  }
+  
+  .footer-project {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .url-project,
+  .code-project {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .url-project a,
+  .code-project a {
+    color: #fff;
+  }

@@ -1,0 +1,37 @@
+#apresentation {
+    margin: 100px 0;
+  }
+  
+  .info-apresentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-apresentation h1 {
+    font-size: 58px;
+    color: #d9d9d9;
+    line-height: 66px;
+  }
+  
+  .info-apresentation span {
+    background: #004d10;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #d9d9d9;
+  }
+
+  .profile-photo {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #004d10
+  }
+  .profile-photo img {
+    width: 335px;
+  }
+  
