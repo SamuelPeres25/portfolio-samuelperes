@@ -34,7 +34,7 @@ export const Contact = () => {
     event.preventDefault();
     const objectBodyRequest = {
       from: formData.email,
-      to: "devcodestart@gmail.com",
+      to: "samuelperes257@gmail.com",
       subject: formData.subject,
       text: `Nome: ${formData.name}, Email: ${formData.email}, Mensagem: ${formData.message}`,
       html: `Nome: ${formData.name}, Email: ${formData.email}, Mensagem: ${formData.message}`,
