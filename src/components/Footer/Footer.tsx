@@ -8,9 +8,16 @@ export function Footer() {
         <footer>
             <div className="container">
                 <div className="first-infos-footer">
-                    {/* <div className="logo">
-                    <img src={Logo} alt="Logo"/>
-                </div> */}
+                 
+                    <nav className="menu-footer">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#aboutme">Sobre</a></li>
+                            <li><a href="#tecnologies">Tecnologias</a></li>
+                            <li><a href="#projects">Projetos</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </nav>
                     <div className="container-right-footer">
                         <p className="cellphone-footer">+55 33 99960 - 9891</p>
                         <p className="email-footer">samuelperes257@gmail.com</p>
@@ -21,7 +28,7 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="second-infos-footer">
-                    <nav className="menu-footer">
+                    {/* <nav className="menu-footer">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#aboutme">Sobre</a></li>
@@ -29,7 +36,7 @@ export function Footer() {
                             <li><a href="#projects">Projetos</a></li>
                             <li><a href="#contact">Contato</a></li>
                         </ul>
-                    </nav>
+                    </nav> */}
                     {/* <p className="copyright">Todos os direitos reservados @ Samuel Peres 2024</p> */}
                 </div>
             </div>

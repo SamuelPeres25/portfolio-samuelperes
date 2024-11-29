@@ -98,7 +98,7 @@ export const Contact = () => {
 
             <div className="submit-form">
               <button type="button" onClick={handleSubmitForm}>
-                <img className='submit-button'
+                <img
                   src={SendIcon}
                   alt="Enviar informações para contato"
                 />
